@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f6; 
+    color: #6a0572;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffb6c1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6a0572;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ff1493;
+}
+.container {
+    display: flex;
+    margin: 20px;
+}
+.sidebar {
+    width: 20%;
+    background-color: #ffeff5;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sidebar-header h2 {
+    color: #d63384;
+    font-size: 22px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #6a0572;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #f8bbd0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar, .right-sidebar {
+        width: 100%;
+    }
+}
